@@ -1,0 +1,84 @@
+<!-- <div class="container">
+
+  <h2>{{modification.name}}</h2>
+
+  <div class="flex-box">
+
+    <img src={{modification.img}} alt="">
+    <div class="contenu-and-button">
+      <p class="contenu">
+       {{modification.email}} <br>
+       {{modification.phone}} <br>
+       {{modification.address}} <br>
+
+      </p>
+      <button class="voir-plus"> view more </button>
+    </div>
+  </div> -->
+
+<!-- </div>
+
+<div class="wrapper">
+
+  <div class="profile-top">
+
+    <div class="profile-image">
+       
+      <div class="profile-bottom">
+
+        <div class="profile-infos">
+
+          <div class="main-infos">
+            <h3 class="name">Johan</h3>
+            <p class="age grey">26</p>
+
+          </div>
+          <p class="email">exmple@gmail.com</p>
+          <p class="ville"> Paris</p>
+        </div>
+
+        <div class="profile-stats">
+          
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+ -->
+
+ <div class="card" [ngClass] ="{'another-color': modification.modele == false}">
+  
+      <!-- Image à la une -->
+      <div class="card-image">
+        <img [src]="modification.img" alt="photo de la personne" /></div>
+      <!-- Fin de l'image à la une -->
+
+      <!-- Corp de notre carte -->
+      <div class="card-body">
+
+          <!-- Date de publication de l'article-->
+          <div class="card-date">
+              <time>{{modification.date }} </time>
+          </div>
+
+          <!-- Titre de l'article -->
+          <div class="card-title">
+              <h3>{{modification.name}}</h3>
+              <h6>{{modification.email}} </h6>
+          </div>
+          <!-- Extrait de l'article -->
+          <div class="card-excerpt">
+              <p>{{modification.contenu}} </p>
+
+              <button >Contect Me</button>
+          </div>
+
+      </div>
+      <!-- Fin du corp de notre carte -->
+  
+</div>
+
+

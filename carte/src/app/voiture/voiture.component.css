@@ -1,0 +1,33 @@
+.container{
+    border: 2px  rgb(251, 248, 248);
+    background-color: #bf2020;
+     width: 90%;
+    border-radius:41% / 13%;
+  
+}
+
+.flex{
+    display: flex;
+    flex-wrap: nowrap
+
+}
+
+img{
+    border-radius: 60% / 70%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+     margin-left: 10%;
+    margin-top: 10%; 
+}
+
+.contenu-and-button .contenu li {
+    font-size: large ;
+    list-style:devanagari;
+    color: #cecbe6;
+
+}
+
+.another-color{
+    background-color: #2f1f1f;  
+}
