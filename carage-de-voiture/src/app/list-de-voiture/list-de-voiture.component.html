@@ -1,0 +1,6 @@
+<p>list-de-voiture works!</p>
+
+<div *ngFor ="let tmp of tabvoiture" >
+    <!-- {{tmp.model}} -->
+    <app-new-car [car]="tmp"></app-new-car>
+</div>
