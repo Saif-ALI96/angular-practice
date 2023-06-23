@@ -9,6 +9,8 @@ import { contact } from 'src/models/carte.model';
 export class CarteComponent {
 
  @Input() modification !: contact;
+
+ 
   
 }
 
