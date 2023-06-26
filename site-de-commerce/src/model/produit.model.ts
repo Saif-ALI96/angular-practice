@@ -4,4 +4,5 @@ export class produits {
     price !: number;
     // available !: boolean;
     img!: string;
+    id !:number;
 }
